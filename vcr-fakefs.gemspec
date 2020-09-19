@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   # abstraction: https://github.com/vcr/vcr/issues/234
   s.add_dependency "vcr", ">= 2.2"
   # FakeFS 0.4.1 is where the "without" support was added.
-  s.add_dependency "fakefs", "~> 0.4", ">= 0.4.1"
+  s.add_dependency "fakefs", ">= 0.4.1"
 
   s.add_development_dependency "bundler", "~> 1.3"
   s.add_development_dependency "rspec", "~> 3.0"
